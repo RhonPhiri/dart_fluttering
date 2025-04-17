@@ -1,0 +1,1 @@
+This project contains all the code practices I took in learning animation in flutter
