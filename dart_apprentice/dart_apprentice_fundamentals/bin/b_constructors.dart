@@ -18,15 +18,12 @@ class User {
   // }
 
   //Short_form constructor
-  const User({required int id, required String name})
-      : _id = id,
-        _name = name;
+  const User({required int id, required String name}) : _id = id, _name = name;
 
-//though we cannot supply a default constructor, we can have a named
-//constructor
-//use the semicolon and 'this' keyword to forward the propertirs of the named
-//constructor to the unnamed constructor.
-//make fields final and constructors const => immutable, cannot be changed
+  //though we cannot supply a default constructor, we can have a named constructor
+  //use the semicolon and 'this' keyword to forward the propertirs of the named
+  //constructor to the unnamed constructor.
+  //make fields final and constructors const => immutable, cannot be changed
   const User.anonymous() : this(id: 0, name: 'anonymous user');
 
   final int _id;
@@ -42,10 +39,8 @@ class User {
   }
 
   //generative constructor used to create new instances
-  //factory constructors used to return existing instances of the class or
-  //subclass
-  //uses the genrative constructor to create and return an instance. similar to
-  //a named constructor but is prefered as it allows validation, error checking
+  //factory constructors used to return existing instances of the class or subclass. They can be unnamed
+  //uses the genrative constructor to create and return an instance. similar to a named constructor but is prefered as it allows validation, error checking
   factory User.rhon() {
     return User(id: 202220140020, name: 'Rhon');
   }
