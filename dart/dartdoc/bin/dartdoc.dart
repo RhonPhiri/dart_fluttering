@@ -1,4 +1,4 @@
-import 'package:dartdoc/f_generics.dart';
+import 'package:dartdoc/k_classes_b.dart';
 
 void main() {
   // variables();
@@ -7,5 +7,8 @@ void main() {
   // regExercise();
   // recordType();
   // collections();
-  generics();
+  // generics();
+  // loops();
+  // functions();
+  classes();
 }

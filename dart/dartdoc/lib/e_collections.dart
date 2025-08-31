@@ -6,7 +6,6 @@ void collections() {
 void nullAwareCollection() {
   //Null aware collections
   int? presentKey = 3;
-  int? absentKey;
 
   String? presentEntry = "Three";
   String? absentEntry;
